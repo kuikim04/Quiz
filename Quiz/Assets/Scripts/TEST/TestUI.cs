@@ -10,7 +10,7 @@ public class TestUI : MonoBehaviour
 {
     [Header("Player info")]
     private string playerName;
-    public TMP_InputField InputFieldName;
+    public InputField InputFieldName;
     public Button setNameButton;
     public TextMeshProUGUI textName;
 

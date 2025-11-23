@@ -360,6 +360,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3b6934827b42b144c8692a614ae8cd03, type: 3}
   - {fileID: 21300000, guid: e51419eee26d07640bda4905b702b081, type: 3}
   - {fileID: 21300000, guid: 6980478f5b8c1de44af4f47f09b66910, type: 3}
+  - {fileID: 21300000, guid: e0c55f7afc05ab6448f1ec439056240d, type: 3}
+  - {fileID: 21300000, guid: 94b0e819caf79184996c2e8d568d57cb, type: 3}
+  - {fileID: 21300000, guid: d12861476b1e6f04bbe8d868a9419a2a, type: 3}
+  - {fileID: 21300000, guid: df993e75761e39f4499e8d80cca0457d, type: 3}
   gridTranform: {fileID: 1700489836}
   spawnCenter: {fileID: 539735488}
   fadeImage: {fileID: 966714959}

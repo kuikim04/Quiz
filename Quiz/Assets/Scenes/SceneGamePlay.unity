@@ -122,6 +122,82 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &92086058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 92086059}
+  - component: {fileID: 92086061}
+  - component: {fileID: 92086060}
+  m_Layer: 5
+  m_Name: Panel_BeforeStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &92086059
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92086058}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 687596071}
+  m_Father: {fileID: 925224155}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &92086060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92086058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &92086061
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92086058}
+  m_CullTransparentMesh: 1
 --- !u!1 &93312064
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +481,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108808072}
   m_CullTransparentMesh: 1
+--- !u!1 &115914262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115914263}
+  - component: {fileID: 115914265}
+  - component: {fileID: 115914264}
+  m_Layer: 5
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &115914263
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115914262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 687596071}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 43, y: 208}
+  m_SizeDelta: {x: -489.3398, y: -235.5233}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &115914264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115914262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u0E04\u0E38\u0E13\u0E21\u0E35\u0E2B\u0E31\u0E27\u0E43\u0E08\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14
+    5 \u0E14\u0E27\u0E07"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e943eeb9af212874da6e17e7f953523f, type: 2}
+  m_sharedMaterial: {fileID: -1530958997682859540, guid: e943eeb9af212874da6e17e7f953523f,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 48
+  m_fontSizeBase: 48
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 4096
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &115914265
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115914262}
+  m_CullTransparentMesh: 1
 --- !u!1 &121968607
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -897,7 +1109,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -50, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &215655867
 MonoBehaviour:
@@ -1567,6 +1779,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448877549}
   m_CullTransparentMesh: 1
+--- !u!1 &460145770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 460145771}
+  - component: {fileID: 460145773}
+  - component: {fileID: 460145772}
+  m_Layer: 5
+  m_Name: Text (TMP) (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &460145771
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460145770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 687596071}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 43, y: -235}
+  m_SizeDelta: {x: -489.3398, y: -235.5233}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &460145772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460145770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u0E15\u0E2D\u0E1A\u0E04\u0E23\u0E1A 10 \u0E02\u0E49\u0E2D\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08\n\u0E04\u0E38\u0E13\u0E08\u0E30\u0E0A\u0E19\u0E30\u0E40\u0E01\u0E21\u0E17\u0E31\u0E19\u0E17\u0E35!"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e943eeb9af212874da6e17e7f953523f, type: 2}
+  m_sharedMaterial: {fileID: -1530958997682859540, guid: e943eeb9af212874da6e17e7f953523f,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 47.5
+  m_fontSizeBase: 47.5
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 4096
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &460145773
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460145770}
+  m_CullTransparentMesh: 1
 --- !u!1 &460217118
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,7 +1949,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -50, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &460217120
 MonoBehaviour:
@@ -2163,6 +2510,10 @@ MonoBehaviour:
   heartPrefab: {fileID: 4979590885301278366, guid: 7f816aff67420c24ca6b114bb6714539,
     type: 3}
   hearts: []
+  canSelect: 1
+  timerText: {fileID: 916849123}
+  timerRunning: 0
+  isStart: 0
 --- !u!1 &518273769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,6 +2648,145 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518273769}
+  m_CullTransparentMesh: 1
+--- !u!1 &569087626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 569087627}
+  - component: {fileID: 569087629}
+  - component: {fileID: 569087628}
+  m_Layer: 5
+  m_Name: Text (TMP) (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &569087627
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569087626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 687596071}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 43, y: 9}
+  m_SizeDelta: {x: -489.3398, y: -235.5233}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &569087628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569087626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u0E15\u0E2D\u0E1A\u0E1C\u0E34\u0E14\u0E08\u0E30\u0E40\u0E2A\u0E35\u0E22\u0E2B\u0E31\u0E27\u0E43\u0E08
+    1 \u0E14\u0E27\u0E07\n\u0E41\u0E15\u0E48\u0E25\u0E30\u0E02\u0E49\u0E2D\u0E21\u0E35\u0E40\u0E27\u0E25\u0E32
+    30 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35\n\u0E2B\u0E32\u0E01\u0E2B\u0E21\u0E14\u0E40\u0E27\u0E25\u0E32
+    \u0E08\u0E30\u0E16\u0E39\u0E01\u0E2B\u0E31\u0E01\u0E2B\u0E31\u0E27\u0E43\u0E08
+    1 \u0E14\u0E27\u0E07\u0E40\u0E0A\u0E48\u0E19\u0E01\u0E31\u0E19"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e943eeb9af212874da6e17e7f953523f, type: 2}
+  m_sharedMaterial: {fileID: -1530958997682859540, guid: e943eeb9af212874da6e17e7f953523f,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 34.9
+  m_fontSizeBase: 34.9
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 4096
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &569087629
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569087626}
   m_CullTransparentMesh: 1
 --- !u!1 &601154021
 GameObject:
@@ -3065,6 +3555,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680162760}
   m_CullTransparentMesh: 1
+--- !u!1 &687596070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 687596071}
+  - component: {fileID: 687596073}
+  - component: {fileID: 687596072}
+  m_Layer: 5
+  m_Name: NOTE 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &687596071
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687596070}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -17280}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 951618406}
+  - {fileID: 115914263}
+  - {fileID: 569087627}
+  - {fileID: 460145771}
+  - {fileID: 2004678122}
+  m_Father: {fileID: 92086059}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1200, y: 1200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &687596072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687596070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3f5993bb397d9014c9c434a3d99d854a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &687596073
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687596070}
+  m_CullTransparentMesh: 1
 --- !u!1 &712104027
 GameObject:
   m_ObjectHideFlags: 0
@@ -3174,6 +3744,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1724444615}
+  - {fileID: 916849122}
   - {fileID: 1381306812}
   - {fileID: 93312065}
   - {fileID: 424133873}
@@ -3926,13 +4498,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65.7
-  m_fontSizeBase: 65.7
+  m_fontSize: 51.4
+  m_fontSizeBase: 51.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
@@ -4326,6 +4898,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865283935}
   m_CullTransparentMesh: 1
+--- !u!1 &867286013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 867286014}
+  - component: {fileID: 867286016}
+  - component: {fileID: 867286015}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &867286014
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867286013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2004678122}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &867286015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867286013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '>>>'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8ffdfb1c37b54344f9a685f1ee7f68a9, type: 2}
+  m_sharedMaterial: {fileID: -3460948347938350762, guid: 8ffdfb1c37b54344f9a685f1ee7f68a9,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278255419
+  m_fontColor: {r: 0.23275423, g: 1, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 110.94
+  m_fontSizeBase: 110.94
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 4096
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &867286016
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867286013}
+  m_CullTransparentMesh: 1
 --- !u!1 &880341127
 GameObject:
   m_ObjectHideFlags: 0
@@ -4522,6 +5229,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906580804}
   m_CullTransparentMesh: 1
+--- !u!1 &916849121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 916849122}
+  - component: {fileID: 916849124}
+  - component: {fileID: 916849123}
+  m_Layer: 5
+  m_Name: ReminingTime
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &916849122
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916849121}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 713677645}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -261, y: -274}
+  m_SizeDelta: {x: 403.57007, y: 70.88}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &916849123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916849121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 82fbeff509fd87544a1b2ca336a8ad68, type: 2}
+  m_sharedMaterial: {fileID: 6421857880822941655, guid: 82fbeff509fd87544a1b2ca336a8ad68,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 49.2
+  m_fontSizeBase: 49.2
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 4096
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &916849124
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916849121}
+  m_CullTransparentMesh: 1
 --- !u!1 &916917932
 GameObject:
   m_ObjectHideFlags: 0
@@ -4670,6 +5512,7 @@ GameObject:
   - component: {fileID: 925224153}
   - component: {fileID: 925224152}
   - component: {fileID: 925224156}
+  - component: {fileID: 925224157}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -4753,11 +5596,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 247397125}
-  - {fileID: 1724444615}
   - {fileID: 713677645}
   - {fileID: 880341128}
-  - {fileID: 1140231674}
+  - {fileID: 92086059}
   - {fileID: 1620326806}
+  - {fileID: 1140231674}
   - {fileID: 1174199289}
   - {fileID: 758102873}
   m_Father: {fileID: 0}
@@ -4812,6 +5655,20 @@ MonoBehaviour:
   textOrder1: {fileID: 1357268455}
   textOrder2: {fileID: 818966015}
   buttonOrder2: {fileID: 1896178164}
+--- !u!114 &925224157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925224151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33339fa1bc74431419e5f8c6e2e251fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorialPanel: {fileID: 92086058}
+  tutorial1: {fileID: 687596071}
 --- !u!1 &937096984
 GameObject:
   m_ObjectHideFlags: 0
@@ -5026,6 +5883,141 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947940072}
+  m_CullTransparentMesh: 1
+--- !u!1 &951618405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 951618406}
+  - component: {fileID: 951618408}
+  - component: {fileID: 951618407}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &951618406
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951618405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 687596071}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 43, y: 344}
+  m_SizeDelta: {x: -489.3398, y: -235.5233}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &951618407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951618405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u0E27\u0E34\u0E18\u0E35\u0E40\u0E25\u0E48\u0E19"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e943eeb9af212874da6e17e7f953523f, type: 2}
+  m_sharedMaterial: {fileID: -1530958997682859540, guid: e943eeb9af212874da6e17e7f953523f,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 71.22
+  m_fontSizeBase: 71.22
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 4096
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &951618408
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951618405}
   m_CullTransparentMesh: 1
 --- !u!1 &987424224
 GameObject:
@@ -6126,7 +7118,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -50, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1151525337
 MonoBehaviour:
@@ -6277,7 +7269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6916,7 +7908,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
@@ -9075,17 +10067,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1724444614}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 925224155}
+  m_Father: {fileID: 713677645}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -290.09998, y: -285}
-  m_SizeDelta: {x: -676.43, y: 70.88}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 332.67, y: -271}
+  m_SizeDelta: {x: 569.1, y: 70.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1724444616
 MonoBehaviour:
@@ -9518,7 +10510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7b2bcabd3c25a4fb7bd58a2c39d9d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHearts: 3
+  maxHearts: 5
   currentHearts: 0
 --- !u!1 &1780268813
 GameObject:
@@ -10234,7 +11226,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -50, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840471711
 MonoBehaviour:
@@ -10497,7 +11489,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896178162}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10507,7 +11499,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 94}
+  m_AnchoredPosition: {x: 0, y: 93.99988}
   m_SizeDelta: {x: 332.6, y: 170.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1896178164
@@ -10549,7 +11541,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1896178165}
   m_OnClick:
     m_PersistentCalls:
@@ -10615,7 +11607,7 @@ CanvasGroup:
   m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
+  m_IgnoreParentGroups: 1
 --- !u!1 &1917593702
 GameObject:
   m_ObjectHideFlags: 0
@@ -10993,6 +11985,154 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979292606}
+  m_CullTransparentMesh: 1
+--- !u!1 &2004678121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2004678122}
+  - component: {fileID: 2004678126}
+  - component: {fileID: 2004678125}
+  - component: {fileID: 2004678124}
+  - component: {fileID: 2004678123}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2004678122
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004678121}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 867286014}
+  m_Father: {fileID: 687596071}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 31, y: 10}
+  m_SizeDelta: {x: 350.2968, y: 121.7502}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2004678123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004678121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 267d484256385b34b8109b88f7477ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetText: {fileID: 867286015}
+  duration: 0.5
+--- !u!114 &2004678124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004678121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2004678125}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 925224157}
+        m_TargetAssemblyTypeName: TutorialControllerMain, Assembly-CSharp
+        m_MethodName: ClosePage1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2004678125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004678121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2004678126
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004678121}
   m_CullTransparentMesh: 1
 --- !u!1 &2024935512
 GameObject:
@@ -11674,196 +12814,438 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allQuestions:
-  - Question: "\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E44\u0E17\u0E22\u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E07\u0E04\u0E4C\u0E01\u0E23\u0E15\u0E32\u0E21\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D\u0E17\u0E35\u0E48\u0E17\u0E33\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48\u0E2B\u0E25\u0E31\u0E01\u0E14\u0E49\u0E32\u0E19\u0E43\u0E14"
+  - Question: "\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E02\u0E2D\u0E07\u0E44\u0E17\u0E22\u0E21\u0E35\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E2D\u0E30\u0E44\u0E23\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14"
     Answers:
-    - "\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E19\u0E34\u0E15\u0E34\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34 "
-    - "\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23"
-    - "\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E15\u0E38\u0E25\u0E32\u0E01\u0E32\u0E23"
-    - "\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E15\u0E23\u0E27\u0E08\u0E40\u0E07\u0E34\u0E19\u0E41\u0E1C\u0E48\u0E19\u0E14\u0E34\u0E19"
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E1C\u0E39\u0E49\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32
+      \u0E2D\u0E2D\u0E01 \u0E41\u0E25\u0E30\u0E41\u0E01\u0E49\u0E44\u0E02\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E02\u0E2D\u0E07\u0E1B\u0E23\u0E30\u0E40\u0E17\u0E28"
+    - "\u0E17\u0E33\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E07\u0E32\u0E19\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14"
+    - "\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E04\u0E14\u0E35\u0E04\u0E27\u0E32\u0E21\u0E15\u0E48\u0E32\u0E07
+      \u0E46"
+    - "\u0E40\u0E01\u0E47\u0E1A\u0E20\u0E32\u0E29\u0E35\u0E41\u0E25\u0E30\u0E14\u0E39\u0E41\u0E25\u0E01\u0E32\u0E23\u0E40\u0E07\u0E34\u0E19\u0E43\u0E2B\u0E49\u0E23\u0E31\u0E10"
     CorrectAnswer: 1
-  - Question: "\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E44\u0E17\u0E22\u0E1B\u0E23\u0E30\u0E01\u0E2D\u0E1A\u0E14\u0E49\u0E27\u0E22\u0E2A\u0E20\u0E32\u0E43\u0E14\u0E1A\u0E49\u0E32\u0E07"
+  - Question: "\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E1E\u0E39\u0E14\u0E16\u0E36\u0E07
+      \u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E44\u0E17\u0E22 \u0E2B\u0E21\u0E32\u0E22\u0E16\u0E36\u0E07\u0E2B\u0E19\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E2D\u0E30\u0E44\u0E23\u0E1A\u0E49\u0E32\u0E07"
     Answers:
     - "\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23\u0E41\u0E25\u0E30\u0E27\u0E38\u0E12\u0E34\u0E2A\u0E20\u0E32"
-    - "\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25\u0E41\u0E25\u0E30\u0E28\u0E32\u0E25 "
-    - "\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35\u0E41\u0E25\u0E30\u0E2A\u0E20\u0E32\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E31\u0E14"
-    - "\u0E28\u0E32\u0E25\u0E0E\u0E35\u0E01\u0E32\u0E41\u0E25\u0E30\u0E28\u0E32\u0E25\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D"
+    - "\u0E28\u0E32\u0E25\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D\u0E01\u0E31\u0E1A\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
+    - "\u0E01\u0E23\u0E30\u0E17\u0E23\u0E27\u0E07\u0E22\u0E38\u0E15\u0E34\u0E18\u0E23\u0E23\u0E21\u0E41\u0E25\u0E30\u0E28\u0E32\u0E25"
+    - "\u0E2D\u0E07\u0E04\u0E4C\u0E01\u0E32\u0E23\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E2A\u0E48\u0E27\u0E19\u0E15\u0E33\u0E1A\u0E25\u0E01\u0E31\u0E1A\u0E40\u0E17\u0E28\u0E1A\u0E32\u0E25"
     CorrectAnswer: 1
-  - Question: "\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E44\u0E17\u0E22\u0E42\u0E14\u0E22\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E04\u0E37\u0E2D\u0E43\u0E04\u0E23"
+  - Question: "\u0E42\u0E14\u0E22\u0E1B\u0E01\u0E15\u0E34\u0E41\u0E25\u0E49\u0E27
+      \u0E43\u0E04\u0E23\u0E17\u0E35\u0E48\u0E40\u0E1B\u0E47\u0E19 \u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E44\u0E17\u0E22"
     Answers:
     - "\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23"
-    - "\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E27\u0E38\u0E12\u0E34\u0E2A\u0E20\u0E32"
     - "\u0E19\u0E32\u0E22\u0E01\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
-    - "\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E28\u0E32\u0E25\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D"
+    - "\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E27\u0E38\u0E12\u0E34\u0E2A\u0E20\u0E32"
+    - "\u0E40\u0E25\u0E02\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32"
     CorrectAnswer: 1
-  - Question: "\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E02\u0E2D\u0E07\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E43\u0E19\u0E23\u0E30\u0E1A\u0E2D\u0E1A\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E18\u0E34\u0E1B\u0E44\u0E15\u0E22\u0E41\u0E1A\u0E1A\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32
-      \u0E04\u0E37\u0E2D"
+  - Question: "\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48\u0E2B\u0E25\u0E31\u0E01\u0E02\u0E2D\u0E07\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E43\u0E19\u0E23\u0E30\u0E1A\u0E1A\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E18\u0E34\u0E1B\u0E44\u0E15\u0E22\u0E41\u0E1A\u0E1A\u0E44\u0E17\u0E22\u0E04\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23"
     Answers:
-    - "\u0E15\u0E23\u0E32\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E41\u0E25\u0E30\u0E04\u0E27\u0E1A\u0E04\u0E38\u0E21\u0E01\u0E32\u0E23\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23"
-    - "\u0E27\u0E34\u0E19\u0E34\u0E08\u0E09\u0E31\u0E22\u0E04\u0E14\u0E35\u0E04\u0E14\u0E35\u0E41\u0E1E\u0E48\u0E07"
-    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E1B\u0E25\u0E31\u0E14\u0E01\u0E23\u0E30\u0E17\u0E23\u0E27\u0E07"
-    - "\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E2D\u0E31\u0E15\u0E23\u0E32\u0E20\u0E32\u0E29\u0E35\u0E42\u0E14\u0E22\u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E1D\u0E48\u0E32\u0E22\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E2D\u0E2D\u0E01\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E41\u0E25\u0E30\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E01\u0E32\u0E23\u0E17\u0E33\u0E07\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25"
+    - "\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E04\u0E14\u0E35\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E28\u0E32\u0E25"
+    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E23\u0E30\u0E14\u0E31\u0E1A\u0E2A\u0E39\u0E07"
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E1C\u0E39\u0E49\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E40\u0E07\u0E34\u0E19\u0E41\u0E1C\u0E48\u0E19\u0E14\u0E34\u0E19"
     CorrectAnswer: 1
-  - Question: "\u201C\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E19\u0E34\u0E15\u0E34\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u201D
-      \u0E2B\u0E21\u0E32\u0E22\u0E16\u0E36\u0E07"
+  - Question: "\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E19\u0E34\u0E15\u0E34\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34
+      \u0E2B\u0E21\u0E32\u0E22\u0E16\u0E36\u0E07\u0E2D\u0E30\u0E44\u0E23"
     Answers:
-    - "\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E43\u0E19\u0E01\u0E32\u0E23\u0E15\u0E23\u0E32\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22"
-    - "\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E43\u0E19\u0E01\u0E32\u0E23\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A\u0E43\u0E0A\u0E49\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22"
-    - "\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E43\u0E19\u0E01\u0E32\u0E23\u0E1E\u0E34\u0E1E\u0E32\u0E01\u0E29\u0E32\u0E04\u0E14\u0E35"
-    - "\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E43\u0E19\u0E01\u0E32\u0E23\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E41\u0E1C\u0E48\u0E19\u0E14\u0E34\u0E19"
+    - "\u0E2D\u0E2D\u0E01\u0E2B\u0E23\u0E37\u0E2D\u0E41\u0E01\u0E49\u0E44\u0E02\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22"
+    - "\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A\u0E43\u0E0A\u0E49\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22"
+    - "\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E04\u0E14\u0E35"
+    - "\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E07\u0E32\u0E19\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23"
     CorrectAnswer: 1
-  - Question: "\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23\u0E40\u0E1B\u0E47\u0E19\u0E15\u0E31\u0E27\u0E41\u0E17\u0E19\u0E02\u0E2D\u0E07"
+  - Question: "\u0E2A\u0E2A. \u0E2B\u0E23\u0E37\u0E2D\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23
+      \u0E40\u0E1B\u0E47\u0E19\u0E15\u0E31\u0E27\u0E41\u0E17\u0E19\u0E02\u0E2D\u0E07\u0E43\u0E04\u0E23"
     Answers:
-    - "\u0E1B\u0E27\u0E07\u0E0A\u0E19\u0E0A\u0E32\u0E27\u0E44\u0E17\u0E22"
-    - "\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E1C\u0E39\u0E49\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E15\u0E31\u0E49\u0E07 "
-    - "\u0E1E\u0E23\u0E23\u0E04\u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E02\u0E2D\u0E07\u0E15\u0E19"
-    - "\u0E40\u0E02\u0E15\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E15\u0E31\u0E49\u0E07\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19"
+    - "\u0E04\u0E19\u0E44\u0E17\u0E22\u0E17\u0E38\u0E01\u0E04\u0E19"
+    - "\u0E04\u0E19\u0E43\u0E19\u0E1E\u0E23\u0E23\u0E04\u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07"
+    - "\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E40\u0E02\u0E15\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E15\u0E31\u0E49\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E40\u0E08\u0E49\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48\u0E02\u0E2D\u0E07\u0E23\u0E31\u0E10"
     CorrectAnswer: 1
-  - Question: "\u0E01\u0E32\u0E23\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E23\u0E48\u0E32\u0E07\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u0E17\u0E31\u0E48\u0E27\u0E44\u0E1B\u0E43\u0E19\u0E2A\u0E20\u0E32\u0E21\u0E35\u0E01\u0E35\u0E48\u0E27\u0E32\u0E23\u0E30"
+  - Question: "\u0E40\u0E27\u0E25\u0E32\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22
+      \u0E43\u0E0A\u0E49\u0E27\u0E32\u0E23\u0E30\u0E01\u0E35\u0E48\u0E23\u0E2D\u0E1A"
     Answers:
     - "3 \u0E27\u0E32\u0E23\u0E30"
     - "2 \u0E27\u0E32\u0E23\u0E30"
     - "4 \u0E27\u0E32\u0E23\u0E30"
     - "5 \u0E27\u0E32\u0E23\u0E30"
     CorrectAnswer: 1
-  - Question: "\u0E27\u0E32\u0E23\u0E30\u0E17\u0E35\u0E48 1 \u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E19\u0E49\u0E19\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E43\u0E14"
+  - Question: "\u0E43\u0E19 \u0E27\u0E32\u0E23\u0E30\u0E17\u0E35\u0E48 1 \u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22
+      \u0E08\u0E30\u0E40\u0E19\u0E49\u0E19\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2D\u0E30\u0E44\u0E23"
     Answers:
-    - "\u0E2B\u0E25\u0E31\u0E01\u0E01\u0E32\u0E23\u0E02\u0E2D\u0E07\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22"
-    - "\u0E23\u0E32\u0E22\u0E21\u0E32\u0E15\u0E23\u0E32"
-    - "\u0E01\u0E32\u0E23\u0E17\u0E39\u0E25\u0E40\u0E01\u0E25\u0E49\u0E32\u0E2F"
-    - "\u0E01\u0E32\u0E23\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E19\u0E23\u0E32\u0E0A\u0E01\u0E34\u0E08\u0E08\u0E32\u0E19\u0E38\u0E40\u0E1A\u0E01\u0E29\u0E32"
+    - "\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E41\u0E19\u0E27\u0E04\u0E34\u0E14\u0E41\u0E25\u0E30\u0E2B\u0E25\u0E31\u0E01\u0E01\u0E32\u0E23\u0E02\u0E2D\u0E07\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22"
+    - "\u0E25\u0E07\u0E21\u0E15\u0E34\u0E17\u0E31\u0E19\u0E17\u0E35"
+    - "\u0E15\u0E31\u0E49\u0E07\u0E01\u0E23\u0E23\u0E21\u0E01\u0E32\u0E23\u0E2A\u0E2D\u0E1A"
+    - "\u0E23\u0E31\u0E1A\u0E1F\u0E31\u0E07\u0E04\u0E27\u0E32\u0E21\u0E04\u0E34\u0E14\u0E40\u0E2B\u0E47\u0E19\u0E08\u0E32\u0E01\u0E28\u0E32\u0E25"
     CorrectAnswer: 1
-  - Question: "\u0E27\u0E32\u0E23\u0E30\u0E17\u0E35\u0E48 2 \u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E17\u0E33\u0E42\u0E14\u0E22"
+  - Question: "\u0E43\u0E19 \u0E27\u0E32\u0E23\u0E30\u0E17\u0E35\u0E48 2 \u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22
+      \u0E43\u0E04\u0E23\u0E04\u0E37\u0E2D\u0E1C\u0E39\u0E49\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E2B\u0E25\u0E31\u0E01"
     Answers:
-    - "\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E40\u0E1B\u0E47\u0E19\u0E23\u0E32\u0E22\u0E21\u0E32\u0E15\u0E23\u0E32"
+    - "\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E17\u0E35\u0E48\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E21\u0E32"
     - "\u0E19\u0E32\u0E22\u0E01\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
-    - "\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E28\u0E32\u0E25\u0E0E\u0E35\u0E01\u0E32"
-    - "\u0E1C\u0E39\u0E49\u0E15\u0E23\u0E27\u0E08\u0E01\u0E32\u0E23\u0E41\u0E1C\u0E48\u0E19\u0E14\u0E34\u0E19"
+    - "\u0E28\u0E32\u0E25\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D"
+    - "\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14"
     CorrectAnswer: 1
-  - Question: "\u0E27\u0E32\u0E23\u0E30\u0E17\u0E35\u0E48 3 \u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E04\u0E37\u0E2D"
+  - Question: "\u0E43\u0E19 \u0E27\u0E32\u0E23\u0E30\u0E17\u0E35\u0E48 3 \u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E1C\u0E48\u0E32\u0E19\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22
+      \u0E21\u0E35\u0E04\u0E27\u0E32\u0E21\u0E2B\u0E21\u0E32\u0E22\u0E15\u0E23\u0E07\u0E01\u0E31\u0E1A\u0E2D\u0E30\u0E44\u0E23"
     Answers:
-    - "\u0E25\u0E07\u0E21\u0E15\u0E34\u0E17\u0E31\u0E49\u0E07\u0E09\u0E1A\u0E31\u0E1A"
-    - "\u0E41\u0E16\u0E25\u0E07\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22"
-    - "\u0E15\u0E31\u0E49\u0E07\u0E04\u0E13\u0E30\u0E2D\u0E19\u0E38\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23"
-    - "\u0E0B\u0E31\u0E01\u0E16\u0E32\u0E21\u0E2A\u0E14"
+    - "\u0E25\u0E07\u0E21\u0E15\u0E34\u0E17\u0E31\u0E49\u0E07\u0E09\u0E1A\u0E31\u0E1A\u0E27\u0E48\u0E32\u0E08\u0E30\u0E40\u0E2B\u0E47\u0E19\u0E14\u0E49\u0E27\u0E22\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48"
+    - "\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E23\u0E23\u0E21\u0E01\u0E32\u0E23\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E15\u0E34\u0E21"
+    - "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E43\u0E0A\u0E49\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E17\u0E31\u0E19\u0E17\u0E35"
+    - "\u0E2D\u0E19\u0E38\u0E21\u0E31\u0E15\u0E34\u0E40\u0E07\u0E34\u0E19\u0E41\u0E1C\u0E48\u0E19\u0E14\u0E34\u0E19"
     CorrectAnswer: 1
-  - Question: "\u0E43\u0E04\u0E23 \u201C\u0E40\u0E2A\u0E19\u0E2D\u0E23\u0E48\u0E32\u0E07\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u201D
-      \u0E44\u0E14\u0E49\u0E15\u0E32\u0E21\u0E2B\u0E25\u0E31\u0E01\u0E17\u0E31\u0E48\u0E27\u0E44\u0E1B"
+  - Question: "\u0E43\u0E04\u0E23\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E2A\u0E19\u0E2D\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E44\u0E14\u0E49"
     Answers:
-    - "\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35\u0E41\u0E25\u0E30\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23"
+    - "\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35\u0E2B\u0E23\u0E37\u0E2D\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23"
     - "\u0E1C\u0E39\u0E49\u0E27\u0E48\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E31\u0E14"
-    - "\u0E28\u0E32\u0E25\u0E04\u0E07\u0E17\u0E35\u0E48"
-    - "\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E17\u0E38\u0E01\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07"
+    - "\u0E28\u0E32\u0E25\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D"
+    - "\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E17\u0E38\u0E01\u0E04\u0E19"
     CorrectAnswer: 1
-  - Question: "\u0E23\u0E48\u0E32\u0E07\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u0E07\u0E1A\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13\u0E23\u0E32\u0E22\u0E08\u0E48\u0E32\u0E22\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E23\u0E34\u0E48\u0E21\u0E17\u0E35\u0E48"
+  - Question: "\u0E16\u0E49\u0E32\u0E08\u0E30\u0E40\u0E23\u0E34\u0E48\u0E21\u0E23\u0E48\u0E32\u0E07\u0E07\u0E1A\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13\u0E1B\u0E35\u0E43\u0E2B\u0E21\u0E48
+      \u0E15\u0E49\u0E2D\u0E07\u0E40\u0E23\u0E34\u0E48\u0E21\u0E17\u0E35\u0E48\u0E2A\u0E20\u0E32\u0E44\u0E2B\u0E19\u0E01\u0E48\u0E2D\u0E19"
     Answers:
     - "\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23"
     - "\u0E27\u0E38\u0E12\u0E34\u0E2A\u0E20\u0E32"
-    - "\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E23\u0E48\u0E27\u0E21\u0E01\u0E31\u0E19\u0E01\u0E48\u0E2D\u0E19"
-    - "\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E0A\u0E49\u0E40\u0E2D\u0E07"
+    - "\u0E28\u0E32\u0E25\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D\u0E28\u0E32\u0E25\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D"
+    - "\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25"
     CorrectAnswer: 1
-  - Question: "\u0E27\u0E38\u0E12\u0E34\u0E2A\u0E20\u0E32\u0E21\u0E35\u0E1A\u0E17\u0E1A\u0E32\u0E17\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E23\u0E43\u0E14"
+  - Question: "\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E02\u0E2D\u0E07\u0E27\u0E38\u0E12\u0E34\u0E2A\u0E20\u0E32\u0E04\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23"
     Answers:
-    - "\u0E01\u0E25\u0E31\u0E48\u0E19\u0E01\u0E23\u0E2D\u0E07\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E17\u0E35\u0E48\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23\u0E2A\u0E48\u0E07\u0E21\u0E32"
+    - "\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E41\u0E25\u0E30\u0E01\u0E25\u0E31\u0E48\u0E19\u0E01\u0E23\u0E2D\u0E07\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22"
     - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E19\u0E32\u0E22\u0E01\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
-    - "\u0E08\u0E31\u0E14\u0E17\u0E33\u0E07\u0E1A\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13"
-    - "\u0E1E\u0E34\u0E1E\u0E32\u0E01\u0E29\u0E32\u0E04\u0E14\u0E35\u0E41\u0E1E\u0E48\u0E07"
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E1D\u0E48\u0E32\u0E22\u0E28\u0E32\u0E25"
+    - "\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E40\u0E07\u0E34\u0E19\u0E23\u0E31\u0E10"
     CorrectAnswer: 1
-  - Question: "\u0E01\u0E32\u0E23\u0E04\u0E27\u0E1A\u0E04\u0E38\u0E21\u0E01\u0E32\u0E23\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E02\u0E2D\u0E07\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25\u0E42\u0E14\u0E22\u0E2A\u0E20\u0E32
-      \u201C\u0E44\u0E21\u0E48\u0E43\u0E0A\u0E48\u201D \u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E37\u0E2D\u0E43\u0E14"
+  - Question: "\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E19\u0E35\u0E49
+      \u0E44\u0E21\u0E48\u0E43\u0E0A\u0E48 \u0E02\u0E2D\u0E07\u0E2A\u0E20\u0E32\u0E43\u0E19\u0E01\u0E32\u0E23\u0E04\u0E27\u0E1A\u0E04\u0E38\u0E21\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25"
     Answers:
-    - "\u0E04\u0E33\u0E27\u0E34\u0E19\u0E34\u0E08\u0E09\u0E31\u0E22\u0E02\u0E2D\u0E07\u0E28\u0E32\u0E25"
+    - "\u0E04\u0E33\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E02\u0E2D\u0E07\u0E28\u0E32\u0E25"
     - "\u0E01\u0E23\u0E30\u0E17\u0E39\u0E49\u0E16\u0E32\u0E21"
     - "\u0E0D\u0E31\u0E15\u0E15\u0E34\u0E44\u0E21\u0E48\u0E44\u0E27\u0E49\u0E27\u0E32\u0E07\u0E43\u0E08"
-    - "\u0E15\u0E31\u0E49\u0E07\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A"
+    - "\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23"
     CorrectAnswer: 1
-  - Question: "\u201C\u0E0D\u0E31\u0E15\u0E15\u0E34\u0E44\u0E21\u0E48\u0E44\u0E27\u0E49\u0E27\u0E32\u0E07\u0E43\u0E08\u201D
-      \u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E02\u0E2D\u0E07"
+  - Question: "\u0E43\u0E04\u0E23\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16 \u0E40\u0E1B\u0E34\u0E14\u0E0D\u0E31\u0E15\u0E15\u0E34\u0E2D\u0E20\u0E34\u0E1B\u0E23\u0E32\u0E22\u0E44\u0E21\u0E48\u0E44\u0E27\u0E49\u0E27\u0E32\u0E07\u0E43\u0E08"
     Answers:
     - "\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23"
     - "\u0E27\u0E38\u0E12\u0E34\u0E2A\u0E20\u0E32"
     - "\u0E28\u0E32\u0E25\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D"
     - "\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
     CorrectAnswer: 1
-  - Question: "\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07 \u201C\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E27\u0E34\u0E2A\u0E32\u0E21\u0E31\u0E0D\u201D
-      \u0E21\u0E35\u0E27\u0E31\u0E15\u0E16\u0E38\u0E1B\u0E23\u0E30\u0E2A\u0E07\u0E04\u0E4C\u0E2B\u0E25\u0E31\u0E01\u0E40\u0E1E\u0E37\u0E48\u0E2D"
+  - Question: "\u0E16\u0E49\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07
+      \u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E27\u0E34\u0E2A\u0E32\u0E21\u0E31\u0E0D
+      \u0E08\u0E30\u0E40\u0E01\u0E34\u0E14\u0E02\u0E36\u0E49\u0E19\u0E40\u0E1E\u0E23\u0E32\u0E30\u0E2D\u0E30\u0E44\u0E23"
     Answers:
-    - "\u0E28\u0E36\u0E01\u0E29\u0E32\u0E41\u0E25\u0E30\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E40\u0E09\u0E1E\u0E32\u0E30 "
-    - "\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E07\u0E1A\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E31\u0E14"
-    - "\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E04\u0E14\u0E35\u0E2D\u0E32\u0E0D\u0E32"
-    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E1C\u0E39\u0E49\u0E27\u0E48\u0E32\u0E2F"
+    - "\u0E2D\u0E22\u0E32\u0E01\u0E43\u0E2B\u0E49\u0E21\u0E35\u0E04\u0E19\u0E0A\u0E48\u0E27\u0E22\u0E14\u0E39\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E40\u0E09\u0E1E\u0E32\u0E30"
+    - "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E19\u0E32\u0E22\u0E2D\u0E33\u0E40\u0E20\u0E2D"
+    - "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E1C\u0E39\u0E49\u0E27\u0E48\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23"
+    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E32\u0E18\u0E34\u0E1A\u0E14\u0E35"
     CorrectAnswer: 1
-  - Question: "\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E41\u0E1A\u0E1A\u0E43\u0E14\u0E1A\u0E49\u0E32\u0E07\u0E15\u0E32\u0E21\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D"
+  - Question: "\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E44\u0E17\u0E22\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E41\u0E1A\u0E1A\u0E43\u0E14\u0E44\u0E14\u0E49\u0E1A\u0E49\u0E32\u0E07"
     Answers:
-    - "\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E41\u0E22\u0E01\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E2D\u0E07\u0E2A\u0E20\u0E32\u0E2B\u0E23\u0E37\u0E2D\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E23\u0E48\u0E27\u0E21\u0E01\u0E31\u0E19"
-    - "\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
-    - "\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E28\u0E32\u0E25"
-    - "\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E1E\u0E23\u0E23\u0E04\u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07"
+    - "\u0E41\u0E22\u0E01\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E2A\u0E2D\u0E07\u0E2A\u0E20\u0E32\u0E2B\u0E23\u0E37\u0E2D\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E23\u0E48\u0E27\u0E21\u0E01\u0E31\u0E19"
+    - "\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E41\u0E04\u0E48\u0E1E\u0E23\u0E23\u0E04\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23"
+    - "\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E41\u0E04\u0E48\u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23"
     CorrectAnswer: 1
-  - Question: "\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E43\u0E14\u0E15\u0E49\u0E2D\u0E07\u0E43\u0E0A\u0E49\u0E01\u0E23\u0E30\u0E1A\u0E27\u0E19\u0E01\u0E32\u0E23\u0E15\u0E23\u0E32\u0E42\u0E14\u0E22\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32"
+  - Question: "\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E41\u0E1A\u0E1A\u0E44\u0E2B\u0E19\u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E1C\u0E48\u0E32\u0E19\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19"
     Answers:
     - "\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34"
-    - "\u0E23\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E1A\u0E2A\u0E33\u0E19\u0E31\u0E01\u0E19\u0E32\u0E22\u0E01\u0E2F"
-    - "\u0E04\u0E33\u0E2A\u0E31\u0E48\u0E07\u0E01\u0E23\u0E30\u0E17\u0E23\u0E27\u0E07"
-    - "\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E01\u0E23\u0E21"
+    - "\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E15\u0E33\u0E23\u0E27\u0E08"
+    - "\u0E23\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E1A\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23"
+    - "\u0E04\u0E33\u0E2A\u0E31\u0E48\u0E07\u0E40\u0E08\u0E49\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48"
     CorrectAnswer: 1
-  - Question: "\u0E2B\u0E25\u0E31\u0E07\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E40\u0E2B\u0E47\u0E19\u0E0A\u0E2D\u0E1A\u0E23\u0E48\u0E32\u0E07\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u0E41\u0E25\u0E49\u0E27
-      \u0E02\u0E31\u0E49\u0E19\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E04\u0E37\u0E2D"
+  - Question: "\u0E2B\u0E25\u0E31\u0E07\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E1C\u0E48\u0E32\u0E19\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E41\u0E25\u0E49\u0E27
+      \u0E02\u0E31\u0E49\u0E19\u0E15\u0E2D\u0E19\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E04\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23"
     Answers:
-    - "\u0E19\u0E33\u0E02\u0E36\u0E49\u0E19\u0E17\u0E39\u0E25\u0E40\u0E01\u0E25\u0E49\u0E32\u0E2F
-      \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E17\u0E23\u0E07\u0E25\u0E07\u0E1E\u0E23\u0E30\u0E1B\u0E23\u0E21\u0E32\u0E20\u0E34\u0E44\u0E18\u0E22"
+    - "\u0E40\u0E2A\u0E19\u0E2D\u0E02\u0E36\u0E49\u0E19\u0E17\u0E39\u0E25\u0E40\u0E01\u0E25\u0E49\u0E32\u0E2F\u0E43\u0E2B\u0E49\u0E1E\u0E23\u0E30\u0E21\u0E2B\u0E32\u0E01\u0E29\u0E31\u0E15\u0E23\u0E34\u0E22\u0E4C\u0E25\u0E07\u0E1E\u0E23\u0E30\u0E1B\u0E23\u0E21\u0E32\u0E20\u0E34\u0E44\u0E18\u0E22"
     - "\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E0A\u0E49\u0E17\u0E31\u0E19\u0E17\u0E35"
     - "\u0E2A\u0E48\u0E07\u0E43\u0E2B\u0E49\u0E28\u0E32\u0E25\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D"
-    - "\u0E2A\u0E48\u0E07\u0E43\u0E2B\u0E49\u0E1C\u0E39\u0E49\u0E27\u0E48\u0E32\u0E2F"
+    - "\u0E2A\u0E48\u0E07\u0E43\u0E2B\u0E49\u0E1C\u0E39\u0E49\u0E27\u0E48\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28"
     CorrectAnswer: 1
-  - Question: "\u0E01\u0E32\u0E23\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E0A\u0E49\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u0E17\u0E33\u0E43\u0E19"
+  - Question: "\u0E08\u0E30\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E0A\u0E49\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u0E17\u0E35\u0E48\u0E44\u0E2B\u0E19"
     Answers:
     - "\u0E23\u0E32\u0E0A\u0E01\u0E34\u0E08\u0E08\u0E32\u0E19\u0E38\u0E40\u0E1A\u0E01\u0E29\u0E32"
-    - "\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C\u0E1E\u0E23\u0E23\u0E04"
-    - "\u0E41\u0E1F\u0E19\u0E40\u0E1E\u0E08\u0E2A\u0E48\u0E27\u0E19\u0E15\u0E31\u0E27"
-    - "\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E17\u0E49\u0E2D\u0E07\u0E16\u0E34\u0E48\u0E19\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19"
+    - "\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C\u0E02\u0E2D\u0E07\u0E2A\u0E20\u0E32"
+    - "\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E17\u0E49\u0E2D\u0E07\u0E16\u0E34\u0E48\u0E19"
+    - "\u0E40\u0E1E\u0E08\u0E40\u0E1F\u0E0B\u0E1A\u0E38\u0E4A\u0E01"
     CorrectAnswer: 1
-  - Question: "\u201C\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E01\u0E33\u0E2B\u0E19\u0E14\u201D
-      \u0E43\u0E0A\u0E49\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E43\u0E14\u0E42\u0E14\u0E22\u0E2B\u0E25\u0E31\u0E01"
+  - Question: "\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E01\u0E33\u0E2B\u0E19\u0E14
+      \u0E2D\u0E2D\u0E01\u0E21\u0E32\u0E43\u0E0A\u0E49\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E40\u0E01\u0E34\u0E14\u0E2D\u0E30\u0E44\u0E23"
     Answers:
-    - "\u0E21\u0E35\u0E40\u0E2B\u0E15\u0E38\u0E09\u0E38\u0E01\u0E40\u0E09\u0E34\u0E19\u0E08\u0E33\u0E40\u0E1B\u0E47\u0E19\u0E23\u0E35\u0E1A\u0E14\u0E48\u0E27\u0E19  "
-    - "\u0E43\u0E0A\u0E49\u0E41\u0E17\u0E19\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E17\u0E38\u0E01\u0E01\u0E23\u0E13\u0E35"
-    - "\u0E43\u0E0A\u0E49\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E17\u0E49\u0E2D\u0E07\u0E16\u0E34\u0E48\u0E19"
-    - "\u0E43\u0E0A\u0E49\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E2A\u0E20\u0E32\u0E1B\u0E34\u0E14\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19\u0E42\u0E14\u0E22\u0E44\u0E21\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E23\u0E31\u0E1A\u0E1C\u0E34\u0E14\u0E0A\u0E2D\u0E1A"
+    - "\u0E21\u0E35\u0E40\u0E2B\u0E15\u0E38\u0E09\u0E38\u0E01\u0E40\u0E09\u0E34\u0E19\u0E2B\u0E23\u0E37\u0E2D\u0E40\u0E23\u0E48\u0E07\u0E14\u0E48\u0E27\u0E19\u0E21\u0E32\u0E01"
+    - "\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25\u0E2D\u0E22\u0E32\u0E01\u0E2D\u0E2D\u0E01\u0E43\u0E2B\u0E49\u0E17\u0E31\u0E19\u0E17\u0E35"
+    - "\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E43\u0E19\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E31\u0E14"
+    - "\u0E21\u0E35\u0E1B\u0E31\u0E0D\u0E2B\u0E32\u0E40\u0E25\u0E47\u0E01\u0E19\u0E49\u0E2D\u0E22"
     CorrectAnswer: 1
-  - Question: "\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E17\u0E35\u0E48\u0E2D\u0E2D\u0E01\u0E21\u0E32\u0E41\u0E25\u0E49\u0E27\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E23\u0E15\u0E48\u0E2D"
+  - Question: "\u0E2B\u0E25\u0E31\u0E07\u0E2D\u0E2D\u0E01 \u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E01\u0E33\u0E2B\u0E19\u0E14
+      \u0E41\u0E25\u0E49\u0E27\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33\u0E2D\u0E30\u0E44\u0E23\u0E15\u0E48\u0E2D"
     Answers:
-    - "\u0E40\u0E2A\u0E19\u0E2D\u0E15\u0E48\u0E2D\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E43\u0E2B\u0E49\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2B\u0E47\u0E19\u0E0A\u0E2D\u0E1A"
-    - "\u0E43\u0E2B\u0E49\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35\u0E23\u0E31\u0E1A\u0E23\u0E2D\u0E07\u0E40\u0E2D\u0E07"
-    - "\u0E43\u0E2B\u0E49\u0E28\u0E32\u0E25\u0E41\u0E1E\u0E48\u0E07\u0E2D\u0E19\u0E38\u0E21\u0E31\u0E15\u0E34"
-    - "\u0E43\u0E2B\u0E49\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E01\u0E32\u0E23\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E31\u0E14\u0E40\u0E2B\u0E47\u0E19\u0E0A\u0E2D\u0E1A"
+    - "\u0E2A\u0E48\u0E07\u0E43\u0E2B\u0E49\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32"
+    - "\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35\u0E17\u0E35\u0E48\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E02\u0E49\u0E2D\u0E07\u0E23\u0E31\u0E1A\u0E23\u0E2D\u0E07\u0E40\u0E2D\u0E07"
+    - "\u0E43\u0E2B\u0E49\u0E28\u0E32\u0E25\u0E2D\u0E19\u0E38\u0E21\u0E31\u0E15\u0E34"
+    - "\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E01\u0E32\u0E23\u0E17\u0E49\u0E2D\u0E07\u0E16\u0E34\u0E48\u0E19\u0E40\u0E2B\u0E47\u0E19\u0E0A\u0E2D\u0E1A"
     CorrectAnswer: 1
-  - Question: "\u201C\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u0E1B\u0E23\u0E30\u0E01\u0E2D\u0E1A\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D\u201D
-      \u0E40\u0E1B\u0E47\u0E19\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E17\u0E35\u0E48"
+  - Question: "\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u0E1B\u0E23\u0E30\u0E01\u0E2D\u0E1A\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D
+      \u0E40\u0E1B\u0E47\u0E19\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E25\u0E31\u0E01\u0E29\u0E13\u0E30\u0E44\u0E2B\u0E19"
     Answers:
     - "\u0E21\u0E35\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E2A\u0E39\u0E07\u0E01\u0E27\u0E48\u0E32\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u0E17\u0E31\u0E48\u0E27\u0E44\u0E1B"
-    - "\u0E43\u0E0A\u0E49\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E31\u0E14"
-    - "\u0E43\u0E0A\u0E49\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E1B\u0E35\u0E07\u0E1A\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13 "
+    - "\u0E43\u0E0A\u0E49\u0E41\u0E04\u0E48\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E31\u0E14\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E43\u0E0A\u0E49\u0E41\u0E04\u0E48\u0E1B\u0E35\u0E2B\u0E19\u0E36\u0E48\u0E07"
     - "\u0E40\u0E1B\u0E47\u0E19\u0E23\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E1A\u0E20\u0E32\u0E22\u0E43\u0E19\u0E01\u0E23\u0E30\u0E17\u0E23\u0E27\u0E07"
     CorrectAnswer: 1
-  - Question: "\u0E2A\u0E20\u0E32\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19\u0E23\u0E32\u0E29\u0E0E\u0E23\u0E17\u0E33\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48\u0E43\u0E14\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25"
+  - Question: "\u0E2A\u0E2A.\u0E17\u0E33\u0E2D\u0E30\u0E44\u0E23\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25"
     Answers:
-    - "\u0E23\u0E31\u0E1A\u0E1F\u0E31\u0E07\u0E41\u0E16\u0E25\u0E07\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22\u0E41\u0E25\u0E30\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E01\u0E32\u0E23\u0E1B\u0E0F\u0E34\u0E1A\u0E31\u0E15\u0E34"
-    - "\u0E2D\u0E2D\u0E01\u0E04\u0E33\u0E1E\u0E34\u0E1E\u0E32\u0E01\u0E29\u0E32"
-    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E1B\u0E25\u0E31\u0E14\u0E01\u0E23\u0E30\u0E17\u0E23\u0E27\u0E07"
-    - "\u0E08\u0E31\u0E14\u0E17\u0E33\u0E23\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E1A\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E41\u0E1C\u0E48\u0E19\u0E14\u0E34\u0E19"
+    - "\u0E23\u0E31\u0E1A\u0E1F\u0E31\u0E07\u0E41\u0E16\u0E25\u0E07\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22\u0E41\u0E25\u0E30\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A"
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E04\u0E19\u0E1E\u0E34\u0E1E\u0E32\u0E01\u0E29\u0E32\u0E04\u0E14\u0E35"
+    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23"
+    - "\u0E2D\u0E2D\u0E01\u0E23\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E1A\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E22\u0E48\u0E2D\u0E22"
     CorrectAnswer: 1
-  - Question: "\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E01\u0E23\u0E30\u0E17\u0E39\u0E49\u0E16\u0E32\u0E21\u0E2A\u0E14\u0E43\u0E19\u0E2A\u0E20\u0E32\u0E21\u0E35\u0E40\u0E1B\u0E49\u0E32\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E1E\u0E37\u0E48\u0E2D"
+  - Question: "\u0E08\u0E38\u0E14\u0E1B\u0E23\u0E30\u0E2A\u0E07\u0E04\u0E4C\u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E01\u0E23\u0E30\u0E17\u0E39\u0E49\u0E16\u0E32\u0E21\u0E2A\u0E14\u0E43\u0E19\u0E2A\u0E20\u0E32\u0E04\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23"
     Answers:
-    - "\u0E02\u0E2D\u0E04\u0E33\u0E0A\u0E35\u0E49\u0E41\u0E08\u0E07\u0E15\u0E48\u0E2D\u0E2A\u0E32\u0E18\u0E32\u0E23\u0E13\u0E30\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E17\u0E31\u0E19\u0E17\u0E48\u0E27\u0E07\u0E17\u0E35"
-    - "\u0E25\u0E07\u0E42\u0E17\u0E29\u0E17\u0E32\u0E07\u0E27\u0E34\u0E19\u0E31\u0E22"
-    - "\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E0A\u0E49\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22 "
-    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
+    - "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E14\u0E39\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E08\u0E32\u0E01\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35\u0E15\u0E48\u0E2D\u0E2A\u0E32\u0E18\u0E32\u0E23\u0E13\u0E0A\u0E19\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E23\u0E27\u0E14\u0E40\u0E23\u0E47\u0E27"
+    - "\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E42\u0E17\u0E29\u0E17\u0E32\u0E07\u0E27\u0E34\u0E19\u0E31\u0E22"
+    - "\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E0A\u0E49\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E17\u0E31\u0E19\u0E17\u0E35"
+    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35\u0E43\u0E2B\u0E21\u0E48"
+    CorrectAnswer: 1
+  - Question: "\u0E40\u0E27\u0E25\u0E32\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E2A\u0E20\u0E32
+      \u0E2D\u0E07\u0E04\u0E4C\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21 \u0E2B\u0E21\u0E32\u0E22\u0E16\u0E36\u0E07\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E21\u0E35\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E21\u0E32\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E44\u0E21\u0E48\u0E15\u0E48\u0E33\u0E01\u0E27\u0E48\u0E32\u0E01\u0E36\u0E48\u0E07\u0E2B\u0E19\u0E36\u0E48\u0E07"
+    - "\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E32\u0E01\u0E31\u0E19\u0E2B\u0E21\u0E14"
+    - "\u0E21\u0E35\u0E41\u0E04\u0E48\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35\u0E1E\u0E2D "
+    - "\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E0A\u0E34\u0E0D\u0E1C\u0E39\u0E49\u0E2A\u0E31\u0E07\u0E40\u0E01\u0E15\u0E01\u0E32\u0E23\u0E13\u0E4C\u0E21\u0E32\u0E14\u0E49\u0E27\u0E22"
+    CorrectAnswer: 1
+  - Question: "\u0E17\u0E33\u0E44\u0E21\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E44\u0E17\u0E22\u0E15\u0E49\u0E2D\u0E07\u0E16\u0E48\u0E32\u0E22\u0E17\u0E2D\u0E14\u0E01\u0E32\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E43\u0E2B\u0E49\u0E2A\u0E32\u0E18\u0E32\u0E23\u0E13\u0E30\u0E14\u0E39"
+    Answers:
+    - "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E42\u0E1B\u0E23\u0E48\u0E07\u0E43\u0E2A\u0E41\u0E25\u0E30\u0E40\u0E1B\u0E34\u0E14\u0E40\u0E1C\u0E22"
+    - "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E42\u0E06\u0E29\u0E13\u0E32\u0E1C\u0E25\u0E07\u0E32\u0E19\u0E1E\u0E23\u0E23\u0E04\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E25\u0E30\u0E04\u0E23\u0E0A\u0E38\u0E14"
+    - "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1A\u0E31\u0E19\u0E40\u0E17\u0E34\u0E07"
+    CorrectAnswer: 1
+  - Question: "\u0E04\u0E33\u0E27\u0E48\u0E32 \u0E2A\u0E31\u0E1B\u0E1B\u0E32\u0E22\u0E30\u0E2A\u0E20\u0E32\u0E2A\u0E16\u0E32\u0E19
+      \u0E2B\u0E21\u0E32\u0E22\u0E16\u0E36\u0E07\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E2D\u0E32\u0E04\u0E32\u0E23\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E44\u0E17\u0E22\u0E43\u0E19\u0E1B\u0E31\u0E08\u0E08\u0E38\u0E1A\u0E31\u0E19"
+    - "\u0E2D\u0E32\u0E04\u0E32\u0E23\u0E28\u0E32\u0E25"
+    - "\u0E17\u0E33\u0E40\u0E19\u0E35\u0E22\u0E1A\u0E19\u0E32\u0E22\u0E01\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
+    - "\u0E42\u0E23\u0E07\u0E40\u0E23\u0E35\u0E22\u0E19\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E2A\u0E20\u0E32"
+    CorrectAnswer: 1
+  - Question: "\u0E04\u0E33\u0E27\u0E48\u0E32 \u0E2A\u0E31\u0E1B\u0E1B\u0E32\u0E22\u0E30\u0E2A\u0E20\u0E32\u0E2A\u0E16\u0E32\u0E19
+      \u0E43\u0E19\u0E40\u0E0A\u0E34\u0E07\u0E19\u0E31\u0E22\u0E2A\u0E33\u0E04\u0E31\u0E0D
+      \u0E04\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E1B\u0E23\u0E30\u0E01\u0E2D\u0E1A\u0E01\u0E23\u0E23\u0E21\u0E14\u0E35\u0E15\u0E48\u0E2D\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E18\u0E34\u0E1B\u0E44\u0E15\u0E22"
+    - "\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E28\u0E32\u0E25\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E04\u0E14\u0E35"
+    - "\u0E41\u0E2B\u0E25\u0E48\u0E07\u0E17\u0E48\u0E2D\u0E07\u0E40\u0E17\u0E35\u0E48\u0E22\u0E27\u0E0A\u0E37\u0E48\u0E2D\u0E14\u0E31\u0E07"
+    - "\u0E04\u0E48\u0E32\u0E22\u0E17\u0E2B\u0E32\u0E23\u0E43\u0E19\u0E40\u0E21\u0E37\u0E2D\u0E07"
+    CorrectAnswer: 1
+  - Question: "\u0E43\u0E04\u0E23\u0E04\u0E27\u0E1A\u0E04\u0E38\u0E21\u0E14\u0E39\u0E41\u0E25\u0E07\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32"
+    Answers:
+    - "\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32"
+    - "\u0E19\u0E32\u0E22\u0E01\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
+    - "\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E28\u0E32\u0E25"
+    - "\u0E1C\u0E39\u0E49\u0E27\u0E48\u0E32\u0E01\u0E23\u0E38\u0E07\u0E40\u0E17\u0E1E\u0E2F"
+    CorrectAnswer: 1
+  - Question: "\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E2A\u0E32\u0E21\u0E31\u0E0D
+      \u0E17\u0E33\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48\u0E2D\u0E30\u0E44\u0E23\u0E43\u0E19\u0E2A\u0E20\u0E32"
+    Answers:
+    - "\u0E28\u0E36\u0E01\u0E29\u0E32\u0E41\u0E25\u0E30\u0E15\u0E34\u0E14\u0E15\u0E32\u0E21\u0E07\u0E32\u0E19\u0E15\u0E32\u0E21\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22"
+    - "\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E04\u0E14\u0E35"
+    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23"
+    - "\u0E40\u0E01\u0E47\u0E1A\u0E20\u0E32\u0E29\u0E35"
+    CorrectAnswer: 1
+  - Question: "\u0E07\u0E1A\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13\u0E1B\u0E23\u0E30\u0E08\u0E33\u0E1B\u0E35\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E43\u0E14"
+    Answers:
+    - "\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34 "
+    - "\u0E23\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E1A "
+    - "\u0E04\u0E33\u0E2A\u0E31\u0E48\u0E07 \u0E04\u0E23\u0E21."
+    - "\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E17\u0E49\u0E2D\u0E07\u0E16\u0E34\u0E48\u0E19"
+    CorrectAnswer: 1
+  - Question: "\u0E2A\u0E2A.\u0E21\u0E35\u0E1A\u0E17\u0E1A\u0E32\u0E17\u0E2D\u0E30\u0E44\u0E23\u0E01\u0E31\u0E1A\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48\u0E02\u0E2D\u0E07\u0E15\u0E19"
+    Answers:
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E15\u0E31\u0E27\u0E41\u0E17\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E19\u0E43\u0E19\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48
+      \u0E19\u0E33\u0E1B\u0E31\u0E0D\u0E2B\u0E32\u0E40\u0E02\u0E49\u0E32\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32"
+    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23"
+    - "\u0E2D\u0E2D\u0E01\u0E01\u0E0E\u0E01\u0E23\u0E30\u0E17\u0E23\u0E27\u0E07"
+    - "\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E02\u0E49\u0E2D\u0E1E\u0E34\u0E1E\u0E32\u0E17\u0E23\u0E30\u0E2B\u0E27\u0E48\u0E32\u0E07\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19"
+    CorrectAnswer: 1
+  - Question: "\u0E2B\u0E25\u0E31\u0E01\u0E01\u0E32\u0E23\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E43\u0E19\u0E01\u0E32\u0E23\u0E2D\u0E2D\u0E01\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E43\u0E2B\u0E21\u0E48\u0E04\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E15\u0E49\u0E2D\u0E07\u0E44\u0E21\u0E48\u0E02\u0E31\u0E14\u0E2B\u0E23\u0E37\u0E2D\u0E1D\u0E48\u0E32\u0E1D\u0E37\u0E19\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D"
+    - "\u0E2A\u0E2D\u0E14\u0E04\u0E25\u0E49\u0E2D\u0E07\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22\u0E1E\u0E23\u0E23\u0E04"
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E1B\u0E23\u0E30\u0E42\u0E22\u0E0A\u0E19\u0E4C\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E01\u0E25\u0E38\u0E48\u0E21 "
+    - "\u0E44\u0E21\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E1B\u0E34\u0E14\u0E40\u0E1C\u0E22\u0E15\u0E48\u0E2D\u0E2A\u0E32\u0E18\u0E32\u0E23\u0E13\u0E30"
+    CorrectAnswer: 1
+  - Question: "\u0E2B\u0E25\u0E31\u0E07\u0E1E\u0E23\u0E30\u0E21\u0E2B\u0E32\u0E01\u0E29\u0E31\u0E15\u0E23\u0E34\u0E22\u0E4C\u0E25\u0E07\u0E1E\u0E23\u0E30\u0E1B\u0E23\u0E21\u0E32\u0E20\u0E34\u0E44\u0E18\u0E22
+      \u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E08\u0E30\u0E21\u0E35\u0E1C\u0E25\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E23\u0E15\u0E48\u0E2D\u0E44\u0E1B"
+    Answers:
+    - "\u0E15\u0E49\u0E2D\u0E07\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E19\u0E23\u0E32\u0E0A\u0E01\u0E34\u0E08\u0E08\u0E32\u0E19\u0E38\u0E40\u0E1A\u0E01\u0E29\u0E32\u0E08\u0E36\u0E07\u0E08\u0E30\u0E43\u0E0A\u0E49\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A"
+    - "\u0E43\u0E0A\u0E49\u0E44\u0E14\u0E49\u0E17\u0E31\u0E19\u0E17\u0E35"
+    - "\u0E43\u0E2B\u0E49\u0E1C\u0E39\u0E49\u0E27\u0E48\u0E32\u0E2F \u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E41\u0E17\u0E19"
+    - "\u0E2A\u0E48\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E2A\u0E20\u0E32"
+    CorrectAnswer: 1
+  - Question: "\u0E01\u0E32\u0E23\u0E15\u0E23\u0E32\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E14\u0E49\u0E27\u0E22\u0E23\u0E30\u0E1A\u0E1A\u0E2A\u0E32\u0E21\u0E27\u0E32\u0E23\u0E30
+      \u0E21\u0E35\u0E40\u0E1B\u0E49\u0E32\u0E2B\u0E21\u0E32\u0E22\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E31\u0E14\u0E01\u0E23\u0E2D\u0E07\u0E41\u0E25\u0E30\u0E01\u0E25\u0E31\u0E48\u0E19\u0E04\u0E38\u0E13\u0E20\u0E32\u0E1E\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E01\u0E48\u0E2D\u0E19\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E0A\u0E49"
+    - "\u0E23\u0E35\u0E1A\u0E40\u0E23\u0E48\u0E07\u0E43\u0E2B\u0E49\u0E2D\u0E2D\u0E01\u0E40\u0E23\u0E47\u0E27\u0E02\u0E36\u0E49\u0E19"
+    - "\u0E25\u0E14\u0E02\u0E31\u0E49\u0E19\u0E15\u0E2D\u0E19\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19"
+    - "\u0E43\u0E2B\u0E49\u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E43\u0E08"
+    CorrectAnswer: 1
+  - Question: "\u0E01\u0E32\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E23\u0E48\u0E27\u0E21\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E43\u0E0A\u0E49\u0E43\u0E19\u0E42\u0E2D\u0E01\u0E32\u0E2A\u0E43\u0E14"
+    Answers:
+    - "\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E17\u0E35\u0E48\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D\u0E23\u0E30\u0E1A\u0E38\u0E43\u0E2B\u0E49\u0E23\u0E48\u0E27\u0E21\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21"
+    - "\u0E17\u0E38\u0E01\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14"
+    - "\u0E01\u0E32\u0E23\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E1B\u0E25\u0E31\u0E14"
+    - "\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E21\u0E48\u0E2A\u0E33\u0E04\u0E31\u0E0D"
+    CorrectAnswer: 1
+  - Question: "\u0E01\u0E32\u0E23\u0E16\u0E32\u0E21\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35\u0E43\u0E19\u0E2A\u0E20\u0E32\u0E41\u0E1A\u0E1A
+      \u0E01\u0E23\u0E30\u0E17\u0E39\u0E49\u0E16\u0E32\u0E21\u0E17\u0E31\u0E48\u0E27\u0E44\u0E1B
+      \u0E04\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E16\u0E32\u0E21\u0E40\u0E1B\u0E47\u0E19\u0E25\u0E32\u0E22\u0E25\u0E31\u0E01\u0E29\u0E13\u0E4C\u0E2D\u0E31\u0E01\u0E29\u0E23\u0E2B\u0E23\u0E37\u0E2D\u0E1B\u0E32\u0E01\u0E40\u0E1B\u0E25\u0E48\u0E32\u0E44\u0E14\u0E49\u0E01\u0E31\u0E1A\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
+    - "\u0E2D\u0E2D\u0E01\u0E02\u0E49\u0E2D\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A\u0E43\u0E2B\u0E21\u0E48 "
+    - "\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E07\u0E1A\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13"
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E32\u0E23\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E43\u0E08\u0E02\u0E2D\u0E07\u0E28\u0E32\u0E25"
+    CorrectAnswer: 1
+  - Question: "\u0E17\u0E33\u0E44\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E1B\u0E34\u0E14\u0E40\u0E1C\u0E22\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E01\u0E32\u0E23\u0E25\u0E07\u0E21\u0E15\u0E34\u0E02\u0E2D\u0E07\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E2A\u0E20\u0E32"
+    Answers:
+    - "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E40\u0E2B\u0E47\u0E19\u0E04\u0E27\u0E32\u0E21\u0E23\u0E31\u0E1A\u0E1C\u0E34\u0E14\u0E41\u0E25\u0E30\u0E42\u0E1B\u0E23\u0E48\u0E07\u0E43\u0E2A\u0E02\u0E2D\u0E07\u0E1C\u0E39\u0E49\u0E41\u0E17\u0E19"
+    - "\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E1E\u0E23\u0E23\u0E04\u0E14\u0E39\u0E14\u0E35\u0E02\u0E36\u0E49\u0E19"
+    - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E04\u0E27\u0E32\u0E21\u0E19\u0E34\u0E22\u0E21"
+    - "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E2B\u0E25\u0E35\u0E01\u0E40\u0E25\u0E35\u0E48\u0E22\u0E07\u0E04\u0E27\u0E32\u0E21\u0E23\u0E31\u0E1A\u0E1C\u0E34\u0E14"
+    CorrectAnswer: 1
+  - Question: "\u0E2B\u0E25\u0E31\u0E01\u0E19\u0E34\u0E15\u0E34\u0E18\u0E23\u0E23\u0E21\u0E17\u0E35\u0E48\u0E2A\u0E20\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E43\u0E2A\u0E48\u0E43\u0E08
+      \u0E2B\u0E21\u0E32\u0E22\u0E16\u0E36\u0E07\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E43\u0E0A\u0E49\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E18\u0E23\u0E23\u0E21\u0E41\u0E25\u0E30\u0E40\u0E17\u0E48\u0E32\u0E40\u0E17\u0E35\u0E22\u0E21\u0E17\u0E38\u0E01\u0E04\u0E19"
+    - "\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E43\u0E08\u0E15\u0E49\u0E2D\u0E07\u0E2D\u0E22\u0E39\u0E48\u0E01\u0E31\u0E1A\u0E23\u0E31\u0E10"
+    - "\u0E2A\u0E31\u0E48\u0E07\u0E14\u0E49\u0E27\u0E22\u0E27\u0E32\u0E08\u0E32\u0E44\u0E14\u0E49\u0E40\u0E2A\u0E21\u0E2D"
+    - "\u0E01\u0E35\u0E14\u0E01\u0E31\u0E19\u0E2A\u0E37\u0E48\u0E2D\u0E21\u0E27\u0E25\u0E0A\u0E19"
+    CorrectAnswer: 1
+  - Question: "\u0E43\u0E04\u0E23 \u0E44\u0E21\u0E48\u0E21\u0E35\u0E2A\u0E34\u0E17\u0E18\u0E34
+      \u0E40\u0E2A\u0E19\u0E2D\u0E0D\u0E31\u0E15\u0E15\u0E34\u0E44\u0E21\u0E48\u0E44\u0E27\u0E49\u0E27\u0E32\u0E07\u0E43\u0E08\u0E19\u0E32\u0E22\u0E01\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
+    Answers:
+    - "\u0E27\u0E38\u0E12\u0E34\u0E2A\u0E20\u0E32 "
+    - "\u0E2A\u0E2A."
+    - "\u0E1C\u0E39\u0E49\u0E19\u0E33\u0E1D\u0E48\u0E32\u0E22\u0E04\u0E49\u0E32\u0E19"
+    - "\u0E2A\u0E2A.\u0E17\u0E35\u0E48\u0E08\u0E31\u0E1A\u0E01\u0E25\u0E38\u0E48\u0E21\u0E01\u0E31\u0E19\u0E2B\u0E25\u0E32\u0E22\u0E1E\u0E23\u0E23\u0E04"
+    CorrectAnswer: 1
+  - Question: "\u0E2D\u0E07\u0E04\u0E4C\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E01\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E2A\u0E20\u0E32\u0E40\u0E1E\u0E23\u0E32\u0E30\u0E40\u0E2B\u0E15\u0E38\u0E43\u0E14"
+    Answers:
+    - "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E01\u0E32\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E41\u0E25\u0E30\u0E21\u0E15\u0E34\u0E2A\u0E2D\u0E14\u0E04\u0E25\u0E49\u0E2D\u0E07\u0E01\u0E31\u0E1A\u0E02\u0E49\u0E2D\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A\u0E41\u0E25\u0E30\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22"
+    - "\u0E40\u0E1B\u0E34\u0E14\u0E42\u0E2D\u0E01\u0E32\u0E2A\u0E43\u0E2B\u0E49\u0E17\u0E38\u0E01\u0E1D\u0E48\u0E32\u0E22\u0E40\u0E2A\u0E19\u0E2D"
+    - "\u0E23\u0E31\u0E1A\u0E23\u0E2D\u0E07\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D"
+    - "\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E01\u0E32\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E40\u0E1B\u0E47\u0E19\u0E44\u0E1B\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E23\u0E27\u0E14\u0E40\u0E23\u0E47\u0E27"
+    CorrectAnswer: 1
+  - Question: "\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E07\u0E1A\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13
+      \u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E41\u0E25\u0E30\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\u0E07\u0E1A\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13\u0E02\u0E2D\u0E07\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25"
+    - "\u0E2D\u0E19\u0E38\u0E21\u0E31\u0E15\u0E34\u0E40\u0E07\u0E34\u0E19\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E14\u0E39\u0E41\u0E25\u0E42\u0E04\u0E23\u0E07\u0E01\u0E32\u0E23\u0E41\u0E04\u0E48\u0E02\u0E2D\u0E07\u0E17\u0E49\u0E2D\u0E07\u0E16\u0E34\u0E48\u0E19 "
+    - "\u0E40\u0E2A\u0E19\u0E2D\u0E40\u0E07\u0E34\u0E19\u0E43\u0E2B\u0E49\u0E2B\u0E19\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E40\u0E2D\u0E01\u0E0A\u0E19"
+    CorrectAnswer: 1
+  - Question: "\u0E17\u0E33\u0E44\u0E21 \u0E01\u0E32\u0E23\u0E23\u0E31\u0E1A\u0E1F\u0E31\u0E07\u0E04\u0E27\u0E32\u0E21\u0E04\u0E34\u0E14\u0E40\u0E2B\u0E47\u0E19\u0E08\u0E32\u0E01\u0E2A\u0E32\u0E18\u0E32\u0E23\u0E13\u0E30
+      \u0E08\u0E36\u0E07\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E01\u0E31\u0E1A\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32"
+    Answers:
+    - "\u0E2A\u0E48\u0E07\u0E40\u0E2A\u0E23\u0E34\u0E21\u0E43\u0E2B\u0E49\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19\u0E21\u0E35\u0E2A\u0E48\u0E27\u0E19\u0E23\u0E48\u0E27\u0E21\u0E43\u0E19\u0E01\u0E32\u0E23\u0E2D\u0E2D\u0E01\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22"
+    - "\u0E43\u0E0A\u0E49\u0E41\u0E04\u0E48\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E20\u0E32\u0E22\u0E43\u0E19\u0E1E\u0E23\u0E23\u0E04"
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E37\u0E2D\u0E1D\u0E48\u0E32\u0E22\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E25\u0E14\u0E02\u0E31\u0E49\u0E19\u0E15\u0E2D\u0E19\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E2A\u0E20\u0E32"
+    CorrectAnswer: 1
+  - Question: "\u0E1C\u0E39\u0E49\u0E23\u0E31\u0E1A\u0E2A\u0E19\u0E2D\u0E07\u0E1E\u0E23\u0E30\u0E1A\u0E23\u0E21\u0E23\u0E32\u0E0A\u0E42\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E0A\u0E49\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E04\u0E37\u0E2D\u0E43\u0E04\u0E23"
+    Answers:
+    - "\u0E19\u0E32\u0E22\u0E01\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
+    - "\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E27\u0E38\u0E12\u0E34\u0E2A\u0E20\u0E32"
+    - "\u0E40\u0E25\u0E02\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E2A\u0E20\u0E32"
+    - "\u0E2B\u0E31\u0E27\u0E2B\u0E19\u0E49\u0E32\u0E1E\u0E23\u0E23\u0E04\u0E43\u0E2B\u0E0D\u0E48"
+    CorrectAnswer: 1
+  - Question: "\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19\u0E21\u0E35\u0E2A\u0E48\u0E27\u0E19\u0E23\u0E48\u0E27\u0E21\u0E43\u0E19\u0E01\u0E32\u0E23\u0E2D\u0E2D\u0E01\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E44\u0E14\u0E49\u0E41\u0E1A\u0E1A\u0E43\u0E14\u0E15\u0E32\u0E21\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D"
+    Answers:
+    - "\u0E23\u0E27\u0E21\u0E15\u0E31\u0E27\u0E40\u0E02\u0E49\u0E32\u0E0A\u0E37\u0E48\u0E2D\u0E40\u0E2A\u0E19\u0E2D\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E20\u0E32"
+    - "\u0E40\u0E2A\u0E19\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E04\u0E34\u0E14\u0E40\u0E2B\u0E47\u0E19\u0E17\u0E32\u0E07\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C"
+    - "\u0E15\u0E34\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E1C\u0E48\u0E32\u0E19\u0E2A\u0E37\u0E48\u0E2D"
+    - "\u0E23\u0E49\u0E2D\u0E07\u0E40\u0E23\u0E35\u0E22\u0E19\u0E15\u0E23\u0E07\u0E16\u0E36\u0E07\u0E19\u0E32\u0E22\u0E01\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
+    CorrectAnswer: 1
+  - Question: "\u0E40\u0E27\u0E25\u0E32\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23
+      \u0E04\u0E33\u0E1B\u0E23\u0E36\u0E01\u0E29\u0E32\u0E27\u0E34\u0E0A\u0E32\u0E01\u0E32\u0E23
+      \u0E2B\u0E21\u0E32\u0E22\u0E16\u0E36\u0E07\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E02\u0E2D\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25 \u0E02\u0E49\u0E2D\u0E40\u0E2A\u0E19\u0E2D
+      \u0E08\u0E32\u0E01\u0E1C\u0E39\u0E49\u0E23\u0E39\u0E49\u0E2B\u0E23\u0E37\u0E2D\u0E2B\u0E19\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E17\u0E35\u0E48\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E02\u0E49\u0E2D\u0E07"
+    - "\u0E23\u0E31\u0E1A\u0E1F\u0E31\u0E07\u0E41\u0E15\u0E48\u0E01\u0E32\u0E23\u0E27\u0E34\u0E08\u0E31\u0E22\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E1B\u0E23\u0E36\u0E01\u0E29\u0E32\u0E43\u0E19\u0E2A\u0E20\u0E32\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E23\u0E31\u0E1A\u0E41\u0E04\u0E48\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2B\u0E47\u0E19\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23"
+    CorrectAnswer: 1
+  - Question: "\u0E40\u0E27\u0E25\u0E32\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23
+      \u0E04\u0E33\u0E1B\u0E23\u0E36\u0E01\u0E29\u0E32\u0E27\u0E34\u0E0A\u0E32\u0E01\u0E32\u0E23
+      \u0E2B\u0E21\u0E32\u0E22\u0E16\u0E36\u0E07\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E02\u0E2D\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25 \u0E02\u0E49\u0E2D\u0E40\u0E2A\u0E19\u0E2D
+      \u0E08\u0E32\u0E01\u0E1C\u0E39\u0E49\u0E23\u0E39\u0E49\u0E2B\u0E23\u0E37\u0E2D\u0E2B\u0E19\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E17\u0E35\u0E48\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E02\u0E49\u0E2D\u0E07"
+    - "\u0E23\u0E31\u0E1A\u0E1F\u0E31\u0E07\u0E41\u0E15\u0E48\u0E01\u0E32\u0E23\u0E27\u0E34\u0E08\u0E31\u0E22\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E1B\u0E23\u0E36\u0E01\u0E29\u0E32\u0E43\u0E19\u0E2A\u0E20\u0E32\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E23\u0E31\u0E1A\u0E41\u0E04\u0E48\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2B\u0E47\u0E19\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23"
+    CorrectAnswer: 1
+  - Question: "\u0E23\u0E31\u0E10\u0E2A\u0E20\u0E32\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25\u0E1C\u0E48\u0E32\u0E19\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23\u0E1A\u0E49\u0E32\u0E07"
+    Answers:
+    - "\u0E15\u0E31\u0E49\u0E07\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23
+      \u0E0B\u0E31\u0E01\u0E16\u0E32\u0E21 \u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25"
+    - "\u0E43\u0E0A\u0E49\u0E04\u0E33\u0E2A\u0E31\u0E48\u0E07\u0E19\u0E32\u0E22\u0E01\u0E2F "
+    - "\u0E2D\u0E2D\u0E01\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E43\u0E2B\u0E21\u0E48\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27"
+    - "\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E1B\u0E23\u0E31\u0E1A\u0E04\u0E13\u0E30\u0E23\u0E31\u0E10\u0E21\u0E19\u0E15\u0E23\u0E35"
+    CorrectAnswer: 1
+  - Question: "\u0E2B\u0E25\u0E31\u0E01 \u0E04\u0E27\u0E32\u0E21\u0E23\u0E31\u0E1A\u0E1C\u0E34\u0E14
+      \u0E02\u0E2D\u0E07\u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E2B\u0E21\u0E32\u0E22\u0E16\u0E36\u0E07\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E1B\u0E34\u0E14\u0E40\u0E1C\u0E22\u0E41\u0E25\u0E30\u0E42\u0E1B\u0E23\u0E48\u0E07\u0E43\u0E2A\u0E43\u0E2B\u0E49\u0E2A\u0E20\u0E32\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32"
+    - "\u0E2A\u0E20\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E17\u0E38\u0E01\u0E2D\u0E22\u0E48\u0E32\u0E07"
+    - "\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E43\u0E08\u0E41\u0E17\u0E19\u0E17\u0E38\u0E01\u0E01\u0E23\u0E13\u0E35 "
+    - "\u0E28\u0E32\u0E25\u0E15\u0E49\u0E2D\u0E07\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E17\u0E38\u0E01\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07"
+    CorrectAnswer: 1
+  - Question: "\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E25\u0E39\u0E01\u0E41\u0E15\u0E01\u0E15\u0E48\u0E32\u0E07\u0E08\u0E32\u0E01\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E23"
+    Answers:
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E17\u0E35\u0E48\u0E23\u0E31\u0E10\u0E18\u0E23\u0E23\u0E21\u0E19\u0E39\u0E0D\u0E01\u0E33\u0E2B\u0E19\u0E14"
+    - "\u0E43\u0E0A\u0E49\u0E01\u0E31\u0E1A\u0E17\u0E49\u0E2D\u0E07\u0E16\u0E34\u0E48\u0E19\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E25\u0E31\u0E01"
+    - "\u0E21\u0E35\u0E1C\u0E25\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A\u0E15\u0E32\u0E21\u0E40\u0E27\u0E25\u0E32\u0E17\u0E35\u0E48\u0E01\u0E33\u0E2B\u0E19\u0E14"
+    - "\u0E2D\u0E2D\u0E01\u0E42\u0E14\u0E22\u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23"
+    CorrectAnswer: 1
+  - Question: "\u0E02\u0E49\u0E2D\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E23"
+    Answers:
+    - "\u0E27\u0E32\u0E07\u0E23\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E1A\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E21\u0E35\u0E40\u0E1B\u0E49\u0E32\u0E2B\u0E21\u0E32\u0E22\u0E41\u0E25\u0E30\u0E25\u0E07\u0E21\u0E15\u0E34\u0E44\u0E14\u0E49\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07"
+    - "\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E0E\u0E40\u0E02\u0E49\u0E21\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01"
+    - "\u0E40\u0E2A\u0E23\u0E34\u0E21\u0E01\u0E34\u0E08\u0E01\u0E23\u0E23\u0E21\u0E1A\u0E31\u0E19\u0E40\u0E17\u0E34\u0E07"
+    - "\u0E25\u0E14\u0E40\u0E27\u0E25\u0E32\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21"
+    CorrectAnswer: 1
+  - Question: "\u0E1B\u0E23\u0E30\u0E18\u0E32\u0E19\u0E43\u0E19\u0E17\u0E35\u0E48\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E2A\u0E20\u0E32\u0E21\u0E35\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E14\u0E39\u0E41\u0E25\u0E04\u0E27\u0E32\u0E21\u0E40\u0E23\u0E35\u0E22\u0E1A\u0E23\u0E49\u0E2D\u0E22\u0E41\u0E25\u0E30\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E02\u0E49\u0E2D\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21"
+    - "\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E1C\u0E25\u0E04\u0E30\u0E41\u0E19\u0E19\u0E40\u0E2A\u0E35\u0E22\u0E07\u0E17\u0E38\u0E01\u0E23\u0E2D\u0E1A"
+    - "\u0E01\u0E23\u0E30\u0E08\u0E32\u0E22\u0E07\u0E1A\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13"
+    - "\u0E41\u0E15\u0E48\u0E07\u0E15\u0E31\u0E49\u0E07\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E40\u0E2A\u0E21\u0E2D"
+    CorrectAnswer: 1
+  - Question: "\u0E04\u0E13\u0E30\u0E01\u0E23\u0E23\u0E21\u0E32\u0E18\u0E34\u0E01\u0E32\u0E23\u0E27\u0E34\u0E2A\u0E32\u0E21\u0E31\u0E0D\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E17\u0E33\u0E07\u0E32\u0E19\u0E15\u0E2D\u0E19\u0E27\u0E32\u0E23\u0E30\u0E44\u0E2B\u0E19"
+    Answers:
+    - "\u0E27\u0E32\u0E23\u0E30\u0E17\u0E35\u0E48 2"
+    - "\u0E27\u0E32\u0E23\u0E30\u0E41\u0E23\u0E01"
+    - "\u0E27\u0E32\u0E23\u0E30\u0E17\u0E35\u0E48 3"
+    - "\u0E2B\u0E25\u0E31\u0E07\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E43\u0E0A\u0E49"
+    CorrectAnswer: 1
+  - Question: "\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E20\u0E32\u0E29\u0E35\u0E41\u0E25\u0E30\u0E40\u0E07\u0E34\u0E19\u0E41\u0E1C\u0E48\u0E19\u0E14\u0E34\u0E19
+      \u0E40\u0E23\u0E35\u0E22\u0E01\u0E27\u0E48\u0E32\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E2D\u0E30\u0E44\u0E23"
+    Answers:
+    - "\u0E23\u0E48\u0E32\u0E07\u0E01\u0E0E\u0E2B\u0E21\u0E32\u0E22\u0E01\u0E32\u0E23\u0E40\u0E07\u0E34\u0E19"
+    - "\u0E23\u0E48\u0E32\u0E07 \u0E1E.\u0E23.\u0E1B."
+    - "\u0E23\u0E48\u0E32\u0E07\u0E02\u0E49\u0E2D\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A"
+    - "\u0E23\u0E48\u0E32\u0E07\u0E23\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E1A"
     CorrectAnswer: 1
   questionsSinceMinigame: 0
   totalAnswered: 0
   correctCount: 0
   wrongCount: 0
   IsGameMainOver: 0
+  IsOpenFirst: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

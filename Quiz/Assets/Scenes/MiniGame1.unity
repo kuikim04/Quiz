@@ -1466,7 +1466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   progressBar: {fileID: 931508185}
   movingImage: {fileID: 2081295915}
-  duration: 60
+  duration: 30
   heartsContainer: {fileID: 480353137}
   heartPrefab: {fileID: 4979590885301278366, guid: 7f816aff67420c24ca6b114bb6714539,
     type: 3}
@@ -12083,7 +12083,7 @@ MonoBehaviour:
     type: 3}
   poolSize: 10
   minSpeed: 5
-  maxSpeed: 20
+  maxSpeed: 10
   speedIncreaseRate: 0.2
   currentSpeed: 0
 --- !u!1660057539 &9223372036854775807

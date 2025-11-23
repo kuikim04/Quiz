@@ -20,8 +20,12 @@ public class GameFlowManager : MonoBehaviour
     public void AddCorrect() => correctCount++;
     public void AddWrong() => wrongCount++;
 
-    public bool IsGameMainOver = false; 
+    public bool IsGameMainOver = false;
+    public bool IsOpenFirst = true;
     private QuizAndAnswer lastQuestion = null;
+
+    int nextMiniGameIndex = 0;
+
 
     private void Awake()
     {
@@ -35,6 +39,7 @@ public class GameFlowManager : MonoBehaviour
 
     private void Start()
     {
+        IsOpenFirst = true;
         ResetQuiz();
     }
 
@@ -55,13 +60,11 @@ public class GameFlowManager : MonoBehaviour
 
     public void QuestionAnswered()
     {
-        questionsSinceMinigame++;
-        totalAnswered++;
-
         if (totalAnswered >= 10 || remainingQuestions.Count == 0)
         {
             MainGameUI.instance.PlayWinAnimation();
             Debug.Log("Finish");
+
             return;
         }
 
@@ -71,7 +74,7 @@ public class GameFlowManager : MonoBehaviour
                 return;
 
             questionsSinceMinigame = 0;
-            LoadRandomMiniGame();
+            LoadMiniGameSequential();
         }
         else
         {
@@ -102,8 +105,8 @@ public class GameFlowManager : MonoBehaviour
         if (remainingQuestions.Count == 0) return null;
 
         int index = Random.Range(0, remainingQuestions.Count);
-        lastQuestion = remainingQuestions[index]; // เก็บคำถามปัจจุบัน
-        return lastQuestion; // **ยังไม่ลบ**
+        lastQuestion = remainingQuestions[index]; 
+        return lastQuestion; 
     }
 
     public void RemoveCurrentQuestion()
@@ -116,15 +119,22 @@ public class GameFlowManager : MonoBehaviour
     }
 
 
-    void LoadRandomMiniGame()
+    void LoadMiniGameSequential()
     {
-        string[] minigames = { "Minigame1", "Minigame2", "Minigame3" };
-        string selected = minigames[Random.Range(0, minigames.Length)];
+        string[] minigames = { "Minigame1", "Minigame2", "Minigame3", "Minigame4"};
+
+        nextMiniGameIndex = nextMiniGameIndex % minigames.Length;
+
+        string selected = minigames[nextMiniGameIndex];
+        nextMiniGameIndex++;
+
         SceneManager.LoadScene(selected);
     }
 
+
     public void GameOver()
     {
+        IsGameMainOver  = true;
         MainGameUI.instance.GameOver();
     }
 }

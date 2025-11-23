@@ -3568,7 +3568,7 @@ MonoBehaviour:
   spawnHeight: 10
   spawnRangeX: 3
   initialWait: 2
-  minWait: 0.5
+  minWait: 1.5
   speedUpRate: 0.05
 --- !u!4 &564519792
 Transform:
@@ -8086,7 +8086,7 @@ MonoBehaviour:
   gameWinPanel: {fileID: 260941223}
   progressBar: {fileID: 176663722}
   movingImage: {fileID: 120220872}
-  duration: 60
+  duration: 30
   heartsContainer: {fileID: 178222002}
   heartPrefab: {fileID: 4979590885301278366, guid: 7f816aff67420c24ca6b114bb6714539,
     type: 3}
@@ -8280,7 +8280,7 @@ MonoBehaviour:
   spawnHeight: 10
   spawnRangeX: 3
   initialWait: 3
-  minWait: 0.5
+  minWait: 1
   speedUpRate: 0.05
 --- !u!4 &1329032455
 Transform:

@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniGame3.unity
     guid: 04926b534af4ef242bd55ccb4f639035
   - enabled: 1
+    path: Assets/Scenes/Minigame4.unity
+    guid: 4c520024bac673f408852c0f00810de5
+  - enabled: 1
     path: Assets/Scenes/PotikaScene.unity
     guid: 8ae291e667f54854f974e1632082a6f9
   m_configObjects: {}

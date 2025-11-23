@@ -50,7 +50,8 @@ public class MainGameUI : MonoBehaviour
 
     void Start()
     {
-        SoundManager.Instance.PlayBGM("pixela");
+        if(!GameFlowManager.Instance.IsOpenFirst)
+            SoundManager.Instance.PlayBGM("pixela");
 
         gameOverPanel.SetActive(false);
 
@@ -73,6 +74,7 @@ public class MainGameUI : MonoBehaviour
                 .OnComplete(() =>
                 {
                     fadeImage.gameObject.SetActive(false);
+                    QuizManager.Instance.timerRunning = true;
                 });
         } 
     }
@@ -82,7 +84,9 @@ public class MainGameUI : MonoBehaviour
         SoundManager.Instance.StopBGM();
         IsGameWin = true;
 
-        Sequence seq = DOTween.Sequence();
+        buttonOrder2.interactable = false;
+
+        DG.Tweening.Sequence seq = DOTween.Sequence();
 
         // 1) รอ 1 วิ
         seq.AppendInterval(1f);
@@ -153,15 +157,18 @@ public class MainGameUI : MonoBehaviour
             textOrder2.alpha = 0;
             buttonGroup.alpha = 0;
 
-            Sequence textSeq = DOTween.Sequence();
+            DG.Tweening.Sequence textSeq = DOTween.Sequence();
 
             textSeq.Append(textOrder1.DOFade(1f, 1f));
 
             textSeq.Append(textOrder2.DOFade(1f, 1f));
 
             textSeq.AppendInterval(5f);
-            textSeq.Append(buttonGroup.DOFade(1f, 1f));
-            buttonOrder2.interactable = true;
+
+            textSeq.Append(buttonGroup.DOFade(1f, 1f).OnComplete(() =>
+            {
+                buttonOrder2.interactable = true;
+            }));
 
             textSeq.Play();
         });
@@ -170,10 +177,7 @@ public class MainGameUI : MonoBehaviour
 
     public void GameOver()
     {
-        GameFlowManager.Instance.IsGameMainOver = true;
-
         SoundManager.Instance.StopBGM();
-
         StartCoroutine(GameOverPopup());
     }
 
